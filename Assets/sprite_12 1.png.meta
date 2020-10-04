@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: cba85ac2e3a1c1341ae9964563bcfe8a
+guid: 76e425ad34665d14081530d3362a52d1
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 8305208975468050295
-    second: GROUND210_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +41,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -90,28 +87,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: GROUND210_0
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 55
-        width: 66
-        height: 12
-      alignment: 9
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 777b8207f87024370800000000000000
-      internalID: 8305208975468050295
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
