@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - GroundConnector
+  - Bullets
+  - Wall
+  - MyHealth
   layers:
   - Default
   - TransparentFX
@@ -17,7 +20,7 @@ TagManager:
   - 
   - Ground
   - ConnectorGround
-  - 
+  - Wall
   - 
   - 
   - 
@@ -45,4 +48,10 @@ TagManager:
     locked: 0
   - name: Ground
     uniqueID: 3749024889
+    locked: 0
+  - name: Wall
+    uniqueID: 910803875
+    locked: 0
+  - name: Player
+    uniqueID: 3609651195
     locked: 0

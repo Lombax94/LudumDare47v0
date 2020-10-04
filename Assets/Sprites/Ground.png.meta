@@ -1,7 +1,16 @@
 fileFormatVersion: 2
-guid: 432d21db0ec46544eaffc05fdf9a6c06
+guid: 9537969dc5f23f74595b496b433bac24
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8063344912763383147
+    second: Ground_0
+  - first:
+      213: -6641804679228041632
+    second: Glue
+  - first:
+      213: -2147107360104207886
+    second: GroundAndGlue0_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,10 +50,10 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 7
+  alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
@@ -87,7 +96,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Ground_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 200
+        height: 100
+      alignment: 9
+      pivot: {x: 0.50000006, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5921945f58e391090800000000000000
+      internalID: -8063344912763383147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

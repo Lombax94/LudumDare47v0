@@ -19,11 +19,11 @@ public class Menu : MonoBehaviour {
 
     Transform spawned;
 
-
+    
     void Start() {
+
         if (updateloop == false) {
             updateloop = false;
-            objects[0].gameObject.SetActive(true);
 
             angle = -90;
             _amount = amount;
@@ -51,18 +51,17 @@ public class Menu : MonoBehaviour {
                 _amount += 3;
 
             }
-            objects[0].gameObject.SetActive(false);
-            GetComponent<CompositeCollider2D>().GenerateGeometry();
+       //     GetComponent<CompositeCollider2D>().GenerateGeometry();
 
         }
+     //   GetComponent<CompositeCollider2D>().GenerateGeometry();
+
     }
 
     private void Update() {
 
         if (updateloop == true) {
             updateloop = false;
-            objects[0].gameObject.SetActive(true);
-            objects[1].gameObject.SetActive(true);
 
             angle = -90;
             _amount = amount;
@@ -106,9 +105,7 @@ public class Menu : MonoBehaviour {
                 //        _amount += 3 +  (j / 2);
 
             }
-            objects[0].gameObject.SetActive(false);
-            objects[1].gameObject.SetActive(false);
-            GetComponent<CompositeCollider2D>().GenerateGeometry();
+         //   GetComponent<CompositeCollider2D>().GenerateGeometry();
 
         }
 
